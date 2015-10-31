@@ -472,3 +472,5 @@ autocmd FileType rust setlocal expandtab shiftwidth=4 tabstop=8 softtabstop=4
 autocmd FileType rust setlocal commentstring=//\ %s
 
 set directory=.,$TEMP
+
+set backupdir=./.backup,.,$TEMP
