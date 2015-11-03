@@ -40,8 +40,6 @@ if has("gui_running")
   else
     set guifont=DejaVu\ Sans\ Mono\ 10
   endif
-else
-  colorscheme myterm
 endif
 
 " Airline
@@ -476,7 +474,13 @@ set directory=.,$TEMP
 set backupdir=./.backup,.,$TEMP
 
 " load NERDtree when vim starts without any agrs
-" --------------------------------------------------------
+" ----------------------------------------------
 
 autocmd VimEnter * if !argc() | NERDTree | endif
 
+" dark solarized colour theme
+" ---------------------------
+
+syntax enable
+set background=dark
+colorscheme solarized

@@ -106,3 +106,9 @@
 [submodule "vim/bundle/vim-jedi"]
 	path = vim/bundle/vim-jedi
 	url = git@github.com:davidhalter/jedi-vim.git
+[submodule "vim/bundle/solarized"]
+	path = vim/bundle/solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "terminal/solarized"]
+	path = terminal/solarized
+	url = https://github.com/tomislav/osx-terminal.app-colors-solarized
