@@ -1,5 +1,13 @@
-dotfile: forked from https://github.com/mitsuhiko/dotfiles
+Dotfiles: forked from https://github.com/mitsuhiko/dotfiles
+
+Try Out:
+        '''
+        git clone --recursive git@github.com:aptro/dotfiles.git
+        cd dotfiles
+        make
+        '''
 
 Terminal: 
         Font: Andale Mono 13 pt.
-        Color Scheme: [Solarized](http://ethanschoonover.com/solarized)
+        Color Scheme: [Solarized]
+        [Solarized](http://ethanschoonover.com/solarized)
