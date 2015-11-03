@@ -474,3 +474,9 @@ autocmd FileType rust setlocal commentstring=//\ %s
 set directory=.,$TEMP
 
 set backupdir=./.backup,.,$TEMP
+
+" load NERDtree when vim starts without any agrs
+" --------------------------------------------------------
+
+autocmd VimEnter * if !argc() | NERDTree | endif
+
