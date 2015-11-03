@@ -1,7 +1,8 @@
 Dotfiles for osX: forked from https://github.com/mitsuhiko/dotfiles
 
 Try Out:
-        >>git clone --recursive git@github.com:aptro/dotfiles.git
+        >>git clone --recursive git@github.com:aptro/dotfiles.git [ssh]
+        or git clone --recursive https://github.com/aptro/dotfiles.git [https]
         >>cd dotfiles
         >>make
 
