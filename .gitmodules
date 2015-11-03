@@ -103,3 +103,6 @@
 [submodule "vim/bundle/vim-jsx"]
 	path = vim/bundle/vim-jsx
 	url = https://github.com/mxw/vim-jsx
+[submodule "vim/bundle/vim-jedi"]
+	path = vim/bundle/vim-jedi
+	url = git@github.com:davidhalter/jedi-vim.git
