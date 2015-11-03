@@ -1,1 +1,5 @@
 dotfile: forked from https://github.com/mitsuhiko/dotfiles
+
+Terminal: 
+        Font: Andale Mono 13 pt.
+        Color Scheme: [Solarized](http://ethanschoonover.com/solarized)
