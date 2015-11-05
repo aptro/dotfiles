@@ -87,7 +87,7 @@ alias zshconfig="subl ~/.zshrc"
 plugins=(git colored-man colorize github jira vagrant virtualenv pip python brew osx zsh-syntax-highlighting)
 
 # PATH
-export PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+export PATH="/usr/local/share/python:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
 
 export EDITOR='subl -w'
 # export PYTHONPATH=$PYTHONPATH
@@ -106,3 +106,4 @@ function r() { grep "$1" ${@:2} -R . }
 function mkcd() { mkdir -p "$@" && cd "$_"; }
 
 export PATH="/usr/local/sbin:$PATH"
+eval "$(rbenv init -)"

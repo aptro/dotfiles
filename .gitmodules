@@ -112,3 +112,10 @@
 [submodule "terminal/solarized"]
 	path = terminal/solarized
 	url = https://github.com/tomislav/osx-terminal.app-colors-solarized
+
+[submodule "vim/bundle/vim-flake8"]
+	path = vim/bundle/vim-flake8
+	url = git@github.com:nvie/vim-flake8.git
+[submodule "vim/bundle/supertab"]
+	path = vim/bundle/supertab
+	url = git@github.com:ervandew/supertab.git
