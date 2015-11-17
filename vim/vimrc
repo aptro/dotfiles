@@ -484,3 +484,17 @@ autocmd VimEnter * if !argc() | NERDTree | endif
 syntax enable
 set background=dark
 colorscheme solarized
+
+" vim-jedi config
+" ---------------
+
+let g:jedi#use_splits_not_buffers = "right"
+
+" vim-node config
+" ---------------
+
+autocmd User Node
+  \ if &filetype == "javascript" |
+  \   nmap <buffer> <C-w>f <Plug>NodeVSplitGotoFile |
+  \   nmap <buffer> <C-w><C-f> <Plug>NodeVSplitGotoFile |
+  \ endif
