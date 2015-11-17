@@ -13,4 +13,4 @@ Terminal:
 
 Mostly configured for Python and Nodejs Development.
 
-Add tweaks for more vim features for Node from https://github.com/nodejs/node-v0.x-archive/wiki/Vim-Plugins (I added few for my use)
+Add tweaks for Node and JS features from https://github.com/nodejs/node-v0.x-archive/wiki/Vim-Plugins (I added few for my usecase)
