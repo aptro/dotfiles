@@ -9,3 +9,8 @@ Try Out:
 Terminal: 
         Font: Andale Mono 13 pt.
         Color Scheme: Solarized(http://ethanschoonover.com/solarized)
+
+
+Mostly configured for Python and Nodejs Development.
+
+Add tweaks for more vim features for Node from https://github.com/nodejs/node-v0.x-archive/wiki/Vim-Plugins (I added few for my use)
